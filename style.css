@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.container1{
+    padding-right: 80px;
+}
+
+.container1 p{
+    color: white;
+}
+
+
+.head {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.head button{
+    border: 20px lightblue;
+    border-radius: 7px;
+    color: white;
+    height: 45px;
+    width: 450px;
+    background-color: hsl(248, 32%, 49%);
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow:1px 5px 5px hsl(249, 32%, 45%);
+}
+
+.formLogin{
+    background-color: white;
+    border-radius: 15px;
+    width: 450px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.formLogin input{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px;
+    padding-left: 10px;
+    width: 360px;
+    border-radius: 6px;
+}
+
+.formLogin button{
+    border: 20px lightblue;
+    border-radius: 7px;
+    color: white;
+    height: 45px;
+    width: 400px;
+    margin: 15px;
+    background-color: hsl(154, 59%, 51%);
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow:1px 5px 5px hsl(154, 67%, 70%); 
+}
+
+.formLogin p{
+    margin: 15px;
+    font-size: 13px;
+}
+
+span{
+    color: hsl(0, 100%, 74%);
+}
+
+
+@media screen and (max-width:375px) {
+    body{
+        background-image: url(images/bg-intro-mobile.png); 
+        background-color: hsl(0, 100%, 74%);
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+    }
+
+    main{
+        flex-direction: column;
+        
+     }
+
+     .container1{
+         font-size: 10px;
+         margin-top: 50px;
+         margin-bottom: 70px;
+         padding: 20px;
+         text-align: center;
+     }
+
+     .head button{
+         width: 350px;
+     }
+
+     .formLogin{
+        width: 300px;
+    }
+
+    .formLogin input{
+        width: 250px;
+    }
+
+    .formLogin button{
+        width: 250px;
+    }
+
+    .head button{
+        width: 300px;
+    }
+    
+}
